@@ -1,0 +1,83 @@
+#services {
+    width: 100%;
+    height: 100vh;
+    padding: 13.33vmax;
+    background-color: $color5;
+    color: $color4;
+    overflow: hidden;
+
+    >h2 {
+        font: 700 2.5rem $text2;
+        width: fit-content;
+        border-bottom: 1px solid $color4;
+        padding: 0.5rem;
+        margin: auto;
+    }
+
+    >section {
+        display: grid;
+        margin: 3rem;
+        grid-template-columns: repeat(3, 1fr);
+        height: 100%;
+        gap: 2rem;
+
+        >* {
+            width: 100%;
+            height: 100%;
+            background-color: $color4;
+
+            &:hover {
+                box-shadow: 0 0 5px 15px rgba(234, 175, 175, 0.799);
+            }
+
+            >svg {
+                color: $color5;
+                font-size: 3rem;
+
+            }
+
+            >span {
+                font: 700 1rem $text2;
+                letter-spacing: 3px;
+                margin: 1rem;
+            }
+
+        }
+
+        .skillBox1,
+        .skillBox2,
+        .skillBox3 {
+            background-color: rgb(254, 235, 238);
+
+            >div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 48px;
+                margin: 0 0 15% 0;
+
+                >h2 {
+                    font: 500 1.3rem $text1;
+                    color: #334776;
+                }
+            }
+
+            >div {
+                color: $color6;
+                display: flex;
+                flex-direction: column;
+                transition: all 0.3s;
+                align-items: center;
+                justify-content: center;
+                
+                >p {
+                    font: 400 1.2rem $text2;
+                    color: #334776df;
+                    letter-spacing: 3px;
+                    padding: 0 0 2% 0;
+                }
+
+            }
+        }
+    }
+}
