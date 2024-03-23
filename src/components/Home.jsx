@@ -8,6 +8,7 @@ import me from "../assets/logo.png"
 
 const Home = ({ ratio }) => {
 
+    
     // const clientCount = useRef(null);
     const projectCount = useRef(null);
 
