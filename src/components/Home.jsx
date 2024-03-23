@@ -95,8 +95,8 @@ const Home = ({ ratio }) => {
         </div>
       </section>
       <section>
-        <img src="https://media.licdn.com/dms/image/D4D03AQEWg_Bk8-2nJA/profile-displayphoto-shrink_800_800/0/1672115940700?e=1716422400&v=beta&t=T0ztEhY0rK-14YOjCUHPMYsvNRnis6Rjg4uV24P0lDA" alt="Abhishekh" />
-        {/* <img src={me} alt="Abhishekh" /> */}
+        {/* <img src="https://media.licdn.com/dms/image/D4D03AQEWg_Bk8-2nJA/profile-displayphoto-shrink_800_800/0/1672115940700?e=1716422400&v=beta&t=T0ztEhY0rK-14YOjCUHPMYsvNRnis6Rjg4uV24P0lDA" alt="Abhishekh" /> */}
+        <img src={me} alt="Abhishekh" />
       </section>
       <BsChevronDown />
     </div>
