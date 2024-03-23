@@ -6,7 +6,7 @@ const Testimonial = () => {
             <h2>Testimonial</h2>
             <section>
                 <TestimonialCard
-                    img="https://media.licdn.com/dms/image/C4D03AQGejMXN0Ka1CQ/profile-displayphoto-shrink_100_100/0/1659064067101?e=1677715200&v=beta&t=POXgB94ZDJuSrbFaFFKM8bEmzSOK_Cl-qYpzbab-w58"
+                    img="https://media.licdn.com/dms/image/D4D03AQG7d_xVwh0CmA/profile-displayphoto-shrink_800_800/0/1673624931732?e=1716422400&v=beta&t=_E1H1J7dX8c9KSl9t63B2AxK_6ylS4hYCG7RUYq5RMw"
                     name={"Er. Abu Hanzala Rehan Ansari"}
                     feedback={"Your logical thinking, positive attitude and strong work ethic makes you an asset to a team. You are excellent coder with a great personality and a valuable contributor to a project."}
                     designation={"Software Development Engineer at KYC Hub"}

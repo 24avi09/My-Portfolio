@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import { AiFillIeCircle, AiOutlineCloudServer, AiOutlineLaptop } from "react-icons/ai"
+// import { AiFillIeCircle, AiOutlineCloudServer, AiOutlineLaptop } from "react-icons/ai"
 
 const Skills = () => {
 
@@ -39,7 +39,7 @@ const Skills = () => {
                     initial={animations.one}
                 >
                     <div >
-                        <h2>Programming</h2>
+                        <h2>Programming Languages</h2>
                     </div>
                     <div>
                         <p>HTML</p>
