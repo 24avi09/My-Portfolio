@@ -1,0 +1,18 @@
+{
+  "technologies": [
+    { "name": "React", "imgSrc": "/images/logo/react-1-logo-png-transparent.png","backgroundColor":"rgb(57 48 48)" },
+    { "name": "Express", "imgSrc": "/images/logo/express-logo.png","backgroundColor":"rgb(57 48 48)" },
+    { "name": "MongoDB", "imgSrc": "/images/logo/mongoDb-logo.png","backgroundColor":"rgb(98 211 145)" },
+    { "name": "NodeJS", "imgSrc": "/images/logo/node-logo.png" },
+    { "name": "Angular", "imgSrc": "/images/logo/angular-logo.png","backgroundColor":"rgb(57 48 48)" },
+    { "name": "JavaScript", "imgSrc": "/images/logo/javascript-logo-png-transparent.png","backgroundColor":"#e8e800" },
+    { "name": "Ant Design", "imgSrc": "/images/logo/antDesign-logo.png","backgroundColor":"rgb(57 48 48)" },
+    { "name": "Zustand", "imgSrc": "/images/logo/zustand-logo.jpg","backgroundColor":"rgb(57 48 48)" },
+    { "name": "React Query", "imgSrc": "/images/logo/react-query-logo.png","backgroundColor":"rgb(57 48 48)" },
+    { "name": "Redux", "imgSrc": "/images/logo/redux-logo-png-transparent.png","backgroundColor":"rgb(57 48 48)" },
+    { "name": "Sass", "imgSrc": "/images/logo/sass-1-logo-png-transparent.png","backgroundColor":"rgb(57 48 48)" },
+    { "name": "Less", "imgSrc": "/images/logo/less-logo.png" ,"backgroundColor":"rgb(57 48 48)"},
+    { "name": "CSS", "imgSrc": "/images/logo/css3-logo-png-transparent.png" ,"backgroundColor":"#2461A8"},
+    { "name": "HTML", "imgSrc": "/images/logo/html5-logo-png-transparent.png","backgroundColor":"rgb(220, 66, 28);" }
+  ]
+}
