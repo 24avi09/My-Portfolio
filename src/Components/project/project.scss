@@ -1,0 +1,104 @@
+.project {
+  background-color: #e8ebec;
+  padding: 3rem 4rem;
+  width: 100% !important;
+
+  .project-upper-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    padding: 0 0 1.5rem 0;
+    .project-header {
+      color: rgb(28, 133, 231);
+    }
+    .project-subheader {
+      color: rgb(58, 57, 57);
+    }
+  }
+
+  .project-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 15px;
+    }
+
+    .project-card-text-part {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      p {
+        width: 300px;
+        text-align: center;
+        font-size: 14px;
+      }
+      .tech-list {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        gap: 0.4rem;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 14px;
+      }
+
+      .project-card-code-demo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        a {
+          color: rgb(11, 11, 11);
+          font-size: 15px;
+          text-decoration: none;
+          font-weight: 500;
+          transition: color 0.3s;
+        }
+        a:hover {
+          color: rgb(28, 133, 231);
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1320px) {
+    .project-list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+
+      .project-card {
+        gap: 10rem;
+      }
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .project-card {
+      gap: 4rem !important;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem !important;
+    }
+  }
+}
