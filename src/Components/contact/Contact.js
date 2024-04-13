@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { LKO_MAPS, MAIL } from '../Utils/constants'
-import Modal from './Modal'
+import { LKO_MAPS, MAIL } from '../../Utils/constants'
+import Modal from '../Modal'
+import "./contact.scss"
 
 const Contact = () => {
     const [openModal, setOpenModal] = useState(false);

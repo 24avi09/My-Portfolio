@@ -5,7 +5,7 @@ const Project = () => (
   <div id="project" className="project">
     <div className="project-upper-part">
       <h2 style={{ color: "rgb(28, 133, 231)" }}>Projects</h2>
-      <h3 style={{ color: "rgb(58, 57, 57)" }}>
+      <h3 style={{ color: "rgb(58, 57, 57)", textAlign: "center" }}>
         Each project is a unique peice of development🧩
       </h3>
     </div>

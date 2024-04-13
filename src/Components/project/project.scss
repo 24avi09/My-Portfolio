@@ -74,4 +74,31 @@
       }
     }
   }
+  @media screen and (max-width: 1320px) {
+    .project-list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+
+      .project-card {
+        gap: 10rem;
+      }
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .project-card {
+      gap: 4rem !important;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem !important;
+    }
+  }
 }
