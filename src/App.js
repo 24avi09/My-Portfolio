@@ -1,10 +1,9 @@
 import './App.scss';
-import About from './Components/About';
 import Contact from './Components/Contact';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
-import Hero from './Components/Hero';
-import Project from './Components/Project';
+import Footer from './Components/footer/Footer';
+import Header from './Components/header/Header';
+import Hero from './Components/hero/Hero';
+import Project from './Components/project/Project';
 import Tech from './Components/Tech';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Tech />
-      <About />
+      {/* <About /> */}
       <Project />
       <Contact />
       <Footer />

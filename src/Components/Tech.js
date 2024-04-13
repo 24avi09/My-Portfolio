@@ -2,7 +2,7 @@ import technologyData from "../assets/technologyData.json";
 
 const Tech = () => {
   return (
-    <div className="tech">
+    <div id="technologies" className="tech">
       <p>Tech Stack</p>
       <ul>
         {technologyData.technologies?.map((e, i) => (
