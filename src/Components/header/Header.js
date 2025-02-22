@@ -42,6 +42,7 @@ const Header = () => (
     <div className="header-side-links">
       {headerList.map((e, i) => (
         <Link
+          key={e?.label}
           className="header-links"
           to={e?.to}
           offset={e?.offset}

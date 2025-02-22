@@ -13,6 +13,6 @@
     { "name": "Sass", "imgSrc": "/images/logo/sass-1-logo-png-transparent.png","backgroundColor":"rgb(57 48 48)" },
     { "name": "Less", "imgSrc": "/images/logo/less-logo.png" ,"backgroundColor":"rgb(57 48 48)"},
     { "name": "CSS", "imgSrc": "/images/logo/css3-logo-png-transparent.png" ,"backgroundColor":"#2461A8"},
-    { "name": "HTML", "imgSrc": "/images/logo/html5-logo-png-transparent.png","backgroundColor":"rgb(220, 66, 28);" }
+    { "name": "HTML", "imgSrc": "/images/logo/html5-logo-png-transparent.png","backgroundColor":"rgb(220, 66, 28)" }
   ]
 }

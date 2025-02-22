@@ -6,7 +6,7 @@ const Tech = () => (
     <p>Tech Stack</p>
     <ul>
       {technologyData.technologies?.map((e, i) => (
-        <li className="tooltip">
+        <li className="tooltip" key={e?.name}>
           <img
             src={e?.imgSrc}
             alt={e?.name}
