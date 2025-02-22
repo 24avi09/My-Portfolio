@@ -23,8 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-section">
-        <img src="https://media.licdn.com/dms/image/D4D03AQEWg_Bk8-2nJA/profile-displayphoto-shrink_800_800/0/1672115940700?e=1718236800&v=beta&t=DrrQftDRDp_-qKHrkxCyb6bH3J5BygUlygATVhzRRRw" alt="profile" />
-        {/* <img src="/images/logo.png" alt="profile" /> */}
+        <img src="/images/profile-image.png" alt="profile" />
       </div>
     </div>
   );
